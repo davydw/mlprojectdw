@@ -5,9 +5,20 @@
 
 from os.path import split
 import pandas as pd
+import numpy as np
 import datetime
 
 pd.set_option('display.width', 200)
+
+# def multiplication_table(n):
+#     multiplication_table = np.zeros((n,n))
+
+#     for i in range (n):
+#         for j in range (n):
+#             multiplication_table[i][j] = (i+1)*(j+1)
+
+#     return pd.DataFrame(multiplication_table)
+
 
 
 def clean_data(data):
